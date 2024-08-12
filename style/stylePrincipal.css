@@ -7,7 +7,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
 
-
 * {
     margin: 0;
     padding: 0;
@@ -18,25 +17,34 @@ body, html {
     background-color: #fff6f5;
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
 }
 header {
     background-color: #fff6f5;
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid #E8B7B7;
-    padding: 15px;
+    border-bottom: 2px solid #e8b7b7;
+    padding: 10px;
+}
+
+header nav a:hover {
+    border: 2px solid #ffffff9a;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.511);
 }
 h1.titulo {
     font-family: 'Lobster', cursive;
     color: rgb(255, 144, 141);
     font-size: 1.5em;
     text-align: left;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.523);
 
 }
 h2 {
     font-size: 5em;
     color: rgb(255, 144, 141);
     font-family: 'Lobster', cursive;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.737);
 }
 div > p {
     text-align: left;
@@ -59,17 +67,19 @@ table#cabecalho th {
 }
 
 nav  a {
+    font-family: 'Dancing Script', cursive;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding: 10px 30px;
+    padding: 8px 30px;
     background-color: #dc418c;
     font-weight: 500px;
+    margin: 2px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.489);
 }
 
 a:hover {
     background-color: #ff00b3;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
 }
 nav {
     display: flex;
