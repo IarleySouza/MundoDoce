@@ -128,6 +128,7 @@ p {
     gap: 20px;
     padding: 20px;
     justify-content: space-between;
+
 }
 
 .texto {
@@ -141,4 +142,25 @@ footer {
 footer > p {
     text-align: justify;
     margin: 0px;
+}
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2);
 }
