@@ -122,13 +122,17 @@ p {
     text-align: center;
     margin: 20px auto;
 }
-.imagem-com-texto {
+main > .imagem-com-texto {
     display: flex;
     align-items: center;
     gap: 20px;
     padding: 20px;
     justify-content: space-between;
-    height: 600px;
+    height: 800px;
+}
+main > .imagem-com-texto > div > img {
+    width: 700px;
+    height: 700px;
 }
 
 .texto {
