@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 body, html {
-    background: linear-gradient(45deg, #db7e7e, #fff, #fcc7c1) ;
+    background: linear-gradient(90deg, #FFB6AE 4.2%, #F5F5F5 53.77%, #FFB6AE 100%);
     height: auto;
     width: 100%;
     scroll-behavior: smooth;
@@ -125,16 +125,12 @@ p {
 main > .imagem-com-texto {
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    padding: 50px;
     justify-content: space-between;
-    height: 800px;
+    height: 630px;
+    
 }
-main > .imagem-com-texto > div > img {
-    width: 700px;
-    height: 700px;
-}
-
 .texto {
     width: 600px;
 }
@@ -146,4 +142,31 @@ footer {
 footer > p {
     text-align: justify;
     margin: 0px;
+}
+#nosso-produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(83deg, #FFDDC1 22.3%, #FFB7C3 74.77%);
+    height: 1000px;
+    border-top: solid ;
+
+
+}
+#nosso-produtos > div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid red;
+}
+#nosso-produtos > div > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    width: 400px;
+    text-align: justify;
+    margin: auto;
 }
