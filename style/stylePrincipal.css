@@ -165,31 +165,3 @@ footer > p {
 .social-icons a:hover img {
     transform: scale(1.2);
 }
-.container {
-    background-color: #f803d700;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    width: 200px; 
-}
-h3 {
-    color: black;
-    font-size: 1em; 
-    margin-bottom: 8px;
-    text-align: center;
-
-}
-
-.icons {
-    display: flex;
-    justify-content: center;
-    gap: 5px; 
-    margin-inline: 50px;
-    cursor: pointer;
-
-}
-
-.icons img {
-    width: 40px; 
-    height: auto;
-}
