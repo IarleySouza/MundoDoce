@@ -13,6 +13,7 @@
     font-family: 'Heebo', sans-serif;
     box-sizing: border-box;
 }
+
 body, html {
     background: linear-gradient(45deg, #db7e7e, #fff, #fcc7c1) ;
     height: 100%;
@@ -145,23 +146,96 @@ footer > p {
     margin: 0px;
     
 }
-.social-icons {
+.content {
     text-align: center;
+    padding: 20px;
+    background-color: #f5a3b3;
+    width: 70%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.degustacoes {
+    display: block;
+    margin-top: 10px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact {
+    background-color: #ff8fca;
+    padding: 15px;
+    border-radius: 8px;
     margin-top: 20px;
-    margin-left: 50%;
 }
 
-.social-icons a {
-    margin: 0 10px;
-    display: inline-block;
+.social-media {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+   margin-left: 50%;
 }
 
-.social-icons img {
+.social-logo {
     width: 30px;
     height: 30px;
-    transition: 0.3s;
-    cursor: pointer;
 }
-.social-icons a:hover img {
-    transform: scale(1.2);
+h3 {
+    font-size: 36px;
+    color: #000;
+    
 }
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.info {
+    width: 45%;
+    text-align: left;
+}
+
+.info p {
+    font-size: 18px;
+    color: #333;
+}
+
+.icon {
+    width: 50px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.mapa {
+    width: 45%;
+}
+
+.mapa img {
+    width: 100%;
+    border: 2px solid #ccc;
+}
+
+.contato {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contato h4 {
+    font-size: 24px;
+    color: #000;
+}
+
+.contato p {
+    font-size: 18px;
+    color: #333;
+}
+
