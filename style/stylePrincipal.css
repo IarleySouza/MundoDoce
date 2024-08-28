@@ -68,7 +68,7 @@ table#cabecalho th {
     padding: 10px;
 }
 
-nav  a {
+.menu {
     font-family: 'Dancing Script', cursive;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -79,7 +79,7 @@ nav  a {
     box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.489);
 }
 
-a:hover {
+.menu:hover {
     background-color: #ff00b3;
     border-radius: 10px;
 }
