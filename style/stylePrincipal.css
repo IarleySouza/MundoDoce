@@ -146,7 +146,8 @@ footer > p {
 #parceiras{
    background-color: #fff;
    width:100%;
-   height:1000px;
+   height:1500px;
+   padding-left:15%;
 }
 
 #parceiras #parca{
@@ -160,7 +161,6 @@ footer > p {
 #parca img{
     width: 200px;
     height: 50px;
-    margin-left: 40px;
 }
 
 
