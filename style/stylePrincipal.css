@@ -135,12 +135,6 @@ main > .imagem-com-texto {
 .texto {
     width: 600px;
 }
-footer {
-    background-color: rgb(235, 156, 235);
-    color: white;
-    padding: 10px;
-    margin-top: 5px;
-}
 footer > p {
     text-align: justify;
     margin: 0px;
@@ -152,8 +146,6 @@ footer > p {
     background: linear-gradient(83deg, #FFDDC1 22.3%, #FFB7C3 74.77%);
     height: 1000px;
     border-top: solid ;
-
-
 }
 #nosso-produtos > div {
     display: flex;
@@ -172,21 +164,48 @@ footer > p {
     text-align: justify;
     margin: auto;
 }
+#historia{
+    margin-left: 5px;
+    margin-bottom: 90px;
+}
+h3{
+    font-size: 25px;
+    background: linear-gradient(90deg, #F46C83 30%, #FFB7C3 78.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+.linha{
+    margin: 17px 0px 10px 0px;
+    border-radius: 300px;
+    background: linear-gradient(90deg, #54635a 0%, #E6BD84 100%);
+    width: 250px;
+    height: 1.5px;
+    border-radius: 10px;
+}
+#vivemos{
+    font-size: 19px;
+}
 #degustacao{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     font-size: 18px;
 }
 #clique{
     margin-bottom: 3px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 #email{
     text-decoration: underline;
     margin-left: 20px;
+    font-size: 20px;
+}
+footer {
+    background-color: rgb(235, 156, 235);
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+}
+footer, .centralizar, #clique, #degustacao, #historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
