@@ -15,19 +15,77 @@
 <body>
     <header>
         <div id="logo">
-            <h1 class="titulo">Mundo Doce</h1>
-            <img src="image/Logo.png" alt="">
         </div>
         <nav>
-            <a href="#produtos">Home</a>
-            <a href="#nosso-produtos">Produtos</a>
-            <a href="#contato">FeedBacks</a>
+            <abbr title="Inicio"><a href="#produtos">Inicio</a></abbr>
+            <abbr title="Produtos"><a href="#produtos">Produtos</a></abbr>
+            <abbr title="Degustação"><a href="#contato">Degustação</a></abbr>
+            <abbr title="Parcerias"><a href="#nosso-produtos">Parcerias</a></abbr>
             <a href="TelaLogin.html" rel="external" target="_blank">Regiões</a>
         </nav>
     </header>
 
     <main id="produtos">
+        
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <video autoplay muted loop class="d-block w-100" src="image/video.mp4" alt="Vídeo"></video>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/pexels-fotios-photos-918327.png" class="d-block w-100" alt="Imagem 2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <section id="nosso-produtos">
+            <h1>Degustação</h1>
+            <div>
+                <div class="meio">
+                    <img src="image/batata.webp" alt="">
+                    <p>Um delícioso bolo de chocolate de 2Kg com recheio de doce de leite e lascas de chocolate.</p>
+                    <button type="button" class="btn btn-outline-dark">Eu quero</button>
+                </div>
+                <div class="meio">
+                    <img src="image/batata.webp" alt="">
+                    <p>Um delícioso bolo de bombom de limão com recheio de abacaxi e pedaços de coco.</p>
+                    <button type="button" class="btn btn-info">Eu quero</button>
+                </div>
+                <div class="meio">
+                    <img src="image/batata.webp" alt="">
+                    <p>Um delícioso bolo de massa branca de 2Kg com um belo recheio de goiabada.</p>
+                    <button type="button" class="btn btn-info">Eu quero</button>
+                </div>
+            </div>
+            <div>
+                <div class="meio">
+                    <img src="image/batata.webp" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut perferendis inventore quo corrupti
+                        dolorum ex quasi, explicabo eligendi unde, quidem nam facilis nihil, repellendus ut eius vitae
+                        est eveniet illumsdsdsdssdsdsdsds.</p>
+                        <button type="button" class="btn btn-outline-dark">Eu quero</button>
+                </div>
+                <div class="meio">
+                    <img src="image/batata.webp" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nisi similique cum veniam.
+                        Officiis vel nisi provident, hic nesciunt eum est suscipit debitis harum natus consequuntur
+                        velit nihil consectetur facilis.dsdsds</p>
+                        <button type="button" class="btn btn-outline-dark">Eu quero</button>
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-danger">Veja
+                Mais</button>
 
+        </section>
         <section class="imagem-com-texto">
             <div class="texto">
                 <h2>Mundo Doce</h2>
@@ -38,83 +96,8 @@
             </div>
         </section>
 
-        <section id="nosso-produtos">
-            <div>
-                <div>
-                    <img src="image/batata.webp" alt="">
-                    <p>Um delícioso bolo de chocolate de 2Kg com recheio de doce de leite e lascas de chocolate.</p>
-                </div>
-                <div>
-                    <img src="image/batata.webp" alt="">
-                    <p>Um delícioso bolo de bombom de limão com recheio de abacaxi e pedaços de coco.</p>
-                </div>
-                <div>
-                    <img src="image/batata.webp" alt="">
-                    <p>Um delícioso bolo de massa branca de 2Kg com um belo recheio de goiabada.</p>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="image/batata.webp" alt="">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut perferendis inventore quo corrupti
-                        dolorum ex quasi, explicabo eligendi unde, quidem nam facilis nihil, repellendus ut eius vitae
-                        est eveniet illumsdsdsdssdsdsdsds.</p>
-                </div>
-                <div>
-                    <img src="image/batata.webp" alt="">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nisi similique cum veniam.
-                        Officiis vel nisi provident, hic nesciunt eum est suscipit debitis harum natus consequuntur
-                        velit nihil consectetur facilis.dsdsds</p>
-                </div>
-            </div>
-            <button type="button" class="btn btn-outline-danger"
-                style="background-color: brown; width:100px; padding: 10px; margin: 15px;">Veja
-                Mais</button>
+        
 
-        </section>
-        <div id="carouselExampleCaptions" class="carousel slide" style="width: 100%;">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="image/amoraospedacos.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae aliquam excepturi dolore soluta architecto nostrum distinctio veritatis magni, quam temporibus expedita perspiciatis quo amet minima accusantium quis impedit rem voluptatem!</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="image/brigadeiro.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum pariatur eius aperiam. Nisi, est? Impedit placeat est obcaecati distinctio. Voluptates error incidunt atque beatae at deserunt neque harum odio magnam.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="image/Mulher.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
         <section id="quem-somos">
             <h2>Conheça mais</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptates, quisquam quae, repellendus,
