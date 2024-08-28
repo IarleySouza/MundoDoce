@@ -176,14 +176,12 @@ footer>p {
     gap: 15px;
     justify-content: center;
     margin: auto;
-    border: 1px solid red;
 }
 
 #nosso-produtos>div>div {
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 1px solid;
     width: 400px;
     text-align: justify;
     margin: auto;
