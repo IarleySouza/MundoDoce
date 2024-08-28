@@ -14,17 +14,20 @@
 
 <body>
     <header>
-        <h1 class="titulo">Mundo Doce</h1>
+        <div id="logo">
+            <h1 class="titulo">Mundo Doce</h1>
+            <img src="image/Logo.png" alt="">
+        </div>
         <nav>
             <a href="#produtos">Home</a>
-            <a href="#quem-somos">Produtos</a>
+            <a href="#nosso-produtos">Produtos</a>
             <a href="#contato">FeedBacks</a>
             <a href="TelaLogin.html" rel="external" target="_blank">Regiões</a>
         </nav>
-
     </header>
 
     <main id="produtos">
+
         <section class="imagem-com-texto">
             <div class="texto">
                 <h2>Mundo Doce</h2>
@@ -64,7 +67,7 @@
                         velit nihil consectetur facilis.dsdsds</p>
                 </div>
             </div>
-            <button type="button" class="btn btn-outline-danger" style="background-color: brown; width:100px;">Veja
+            <button type="button" class="btn btn-outline-danger" style="background-color: brown; width:100px; padding: 10px; margin: 15px;">Veja
                 Mais</button>
 
         </section>
@@ -77,28 +80,11 @@
                 Commodi deserunt est eos, hic quo quasi laboriosam, totam quaerat atque dolor maiores perferendis
                 tempora impedit aperiam, qui sapiente minus magnam cupiditate!</p>
         </section>
-
-        <section id="contato">
-            <h2>Conheça Mais</h2>
-            <div class="conteiner">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quae itaque eaque minima adipisci rem
-                    placeat sunt molestiae deserunt impedit. Nostrum consequatur beatae repellat saepe, nihil fugit sint
-                    obcaecati quia. Lorem ipsum dolo </p>
-            </div>
-        </section>
-        <section>
-            <div id="degustacao">
-                <p id="p_deg">Quer ter direito a uma degustação?
-                    É muito fácil, basta clicar no botão "degustações" e conversar direto no nosso Whatsapp. Se preferir, pode entrar em contato através da propria empresa ou até mesmo fazer sua encomenda pelo email<a id="email" href="#">mundodoce@gmail.com.br</a></p><br>
-                    <p id="clique">Clique aqui para acessar nosso cardápio de degustação</p>
-                    <input type="submit" name="clique_aqui" class="btn btn-outline-danger" value="Degustações">
-            </div>
-        </section>
         <section id="nossa-historia">
             </div>
-            <h2 class="titulo-h2"><br> Nossa História</h2>
+            <h2 class="titulo-h2"> Nossa História</h2>
             <div class="line"></div>
-            <p class="texto">Bem-vindo ao Mundo Doce! Somos um grupo de alunos desenvolvedores do Instituto PROA e</p>
+            <p class="texto">Bem-vindo ao Mundo Doce! Somos um grupo de alunos desenvolvedores do Instituto PROA, </p>
             <p class="texto">criamos o Mundo Doce com a missão de conectar você às melhores lojas de doces de todo o
                 Brasil. </p>
             <p class="texto"> Nosso site atua como uma ponte entre você e uma vasta gama de delícias,
@@ -120,14 +106,43 @@
                 Brasil tem a oferecer!
             </p><br>
         </section>
+        <section id="degustacao">
+            <div id="degustacao">
+                <p id="p_deg">Quer ter direito a uma degustação?
+                    É muito fácil, basta clicar no botão "degustações" e conversar direto no nosso Whatsapp. Se
+                    preferir, pode entrar em contato através da propria empresa ou até mesmo fazer sua encomenda pelo
+                    email:<a href="#"> mundodoce@gmail.com.br</a></p><br>
+            </div>
+            <div>
+                <aside id="aside1">
+                    <form action="java.sp" method="post">
+                        <label for="inome">Digite seu nome completo:</label> <br>
+                        <input type="text" name="nome" id="inome" placeholder="Digite seu nome aqui:" required> <br>
+                        <br>
+
+                        <label for="iemail">Digite seu email:</label> <br>
+                        <input type="email" name="email" id="iemail" placeholder="Digite seu email aqui:" required>
+                        <br><br>
+
+                        <label for="message">Faça seu pedido aqui:</label> <br>
+                        <textarea name="message" id="message" rows="8" cols="20" placeholder="Faça seu pedido por aqui:"
+                            required></textarea> <br><br>
+
+                        <input type="submit" value="Enviar">
+
+                    </form>
+                </aside>
+            </div>
+        </section>
+
     </main>
 
     <footer>
         <h3>Fale Conosco</h3>
         <br>
-        <p class="centralizar">(11) 09383637</p>
-        <p class="centralizar">(11) 09383637</p>
-        <p class="centralizar">mundoDoce@nossodoce.com.br</p>
+        <p class="centralizar">Endereço <br> Rua Tabapuã, 1072 - Itaim Bibi, São Paulo - SP, 04533-004 <br>
+            Contatos <br> E-mail: mundodoce@gmail.com.br <br> Telefone: <br> (11) 2632-4489 <br> (11)1028-5678
+            <br><br>Whatsapp: (11) 4002-8922</p>
     </footer>
 </body>
 
