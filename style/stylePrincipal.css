@@ -147,8 +147,6 @@ main>.imagem-com-texto {
     height: 630px;
 
 }
-
-
 footer {
     background-color: violet;
     color: white;
@@ -167,7 +165,7 @@ footer>p {
     background: linear-gradient(83deg, #FFDDC1 22.3%, #FFB7C3 74.77%);
     height: 100%;
     border-top: solid;
-    border-top: solid ;
+    border-top: solid;
 }
 
 #nosso-produtos>div {
@@ -178,7 +176,7 @@ footer>p {
     margin: auto;
 }
 
-#nosso-produtos > div > div {
+#nosso-produtos>div>div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,6 +193,7 @@ footer>p {
     position: relative;
 
 }
+
 #nossa-historia {
     background: linear-gradient(to right, #ebced3, #F46C83);
 }
@@ -214,7 +213,7 @@ footer>p {
     margin: auto;
     font-size: 60px;
     font-weight: bold;
-    color:  rgba(44, 20, 20, 0.466)
+    color: rgba(44, 20, 20, 0.466)
 }
 
 .line {
@@ -223,18 +222,21 @@ footer>p {
     background-color: #c8a2bc;
     margin: 50px auto;
 }
+
 #historia {
     margin-left: 5px;
     margin-bottom: 90px;
 }
-h3{
+
+h3 {
     font-size: 25px;
     background: linear-gradient(90deg, #F46C83 30%, #FFB7C3 78.5%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.linha{
+
+.linha {
     margin: 17px 0px 10px 0px;
     border-radius: 300px;
     background: linear-gradient(90deg, #54635a 0%, #E6BD84 100%);
@@ -242,32 +244,42 @@ h3{
     height: 1.5px;
     border-radius: 10px;
 }
-#vivemos{
+
+#vivemos {
     font-size: 19px;
 }
-#degustacao{
+
+#degustacao {
     font-size: 18px;
 }
-#clique{
+
+#clique {
     margin-bottom: 3px;
 }
-#email{
+
+#email {
     text-decoration: underline;
     margin-left: 20px;
     font-size: 19px;
 }
+
 footer {
     background-color: rgb(235, 156, 235);
     color: white;
     padding: 10px;
     margin-top: 5px;
 }
-footer, #clique, #degustacao, #historia{
+
+footer,
+#clique,
+#degustacao,
+#historia {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 form {
     text-align: center;
     margin: 20px 0px;
@@ -276,111 +288,118 @@ form {
     width: 450px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.434);
 }
+
 label {
     font-weight: bold;
 }
-input, textarea {
+
+input,
+textarea {
     width: 95%;
     padding: 8px;
     margin: 5px 0px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 input[type="submit"] {
     background-color: #6C9AB6;
     color: #fff;
     border: none;
     cursor: pointer;
 }
+
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+
 #degustacao {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     height: 700px;
 }
+
 .centralizar {
     text-align: center;
 }
-#nosso-produtos > div > div > p{
+
+#nosso-produtos>div>div>p {
     text-align: center;
     width: 70%;
 }
-#nosso-produtos > div > div >img {
+
+#nosso-produtos>div>div>img {
     margin: 30px;
 }
+
 #logo {
     display: flex;
 }
-#logo > img {
+
+#logo>img {
     width: 60px;
     height: 50px;
 }
-#parceiras{
-   background-color: #fff;
-   width:100%;
-   height:1500px;
-   padding-left:15%;
+
+#parceiras {
+    background-color: #fff;
+    width: 100%;
+    height: 1500px;
+    padding-left: 15%;
 }
 
-#parceiras #parca{
-     width: 90px;
-     height: 50px;
-     display: flex;
-     flex-direction: row;
-     margin-left:50px;
+#parceiras #parca {
+    width: 90px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
 }
 
-#parca img{
+#parca img {
     width: 200px;
     height: 50px;
 }
 
-
-
-.lojas{
+.lojas {
     position: relative;
-    width:90%;
-    height:50px;
-    display:flex;
+    width: 90%;
+    height: 50px;
+    display: flex;
     flex-direction: row;
     margin-top: 50px;
 }
 
-.lojas img{
-    position:relative;
-    width:150px;
-    height:150px;
-    margin-left:80px; 
+.lojas img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: 80px;
 }
 
-#fini2{
-     position: relative;
-     width:550px;
-     height:150px;
-     background-color: #fcc7c1;
-     margin-left: 40px;
-     font-size: 12px;
-     text-align: center;
-     padding-left:15px;
+#fini2 {
+    position: relative;
+    width: 550px;
+    height: 150px;
+    background-color: #fcc7c1;
+    margin-left: 40px;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 15px;
 }
 
-h5{
+h5 {
     font-size: 15px;
 }
 
-#docesfini{
+#docesfini {
     display: flex;
     flex-wrap: wrap;
 }
 
-
-
-#docesfini img{
-  width:100px;
-  height:70px;
-  margin-left:55px;
+#docesfini img {
+    width: 100px;
+    height: 70px;
+    margin-left: 55px;
 }
-
