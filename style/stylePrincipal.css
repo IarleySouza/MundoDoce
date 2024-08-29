@@ -258,6 +258,7 @@ footer {
     margin-top: 5px;
 }
 
+
 footer,
 #clique,
 #degustacao,
@@ -412,11 +413,15 @@ input[type="submit"]:hover {
     object-fit: cover;
     /* Ajusta a imagem para cobrir a área sem distorcer */
 }
+
 abbr[title] {
-    border-bottom: none; /* Remove o sublinhado */
-  cursor: default; /* Remove o cursor de "mão" quando o mouse paFssa sobre o elemento */
-  text-decoration: none;
+    border-bottom: none;
+    /* Remove o sublinhado */
+    cursor: default;
+    /* Remove o cursor de "mão" quando o mouse paFssa sobre o elemento */
+    text-decoration: none;
 }
+
 .meio {
     background-color: #FCC7C1;
     border-radius: 10px;
@@ -424,11 +429,13 @@ abbr[title] {
     perspective: 1000px;
     width: 20px;
 }
+
 #nosso-produtos div {
     margin: 25px;
     width: 20px;
     height: 450px;
 }
+
 #nosso-produtos h1 {
     margin: 30px 25% 20px 25%;
     background-color: #FCC7C1;
@@ -437,19 +444,42 @@ abbr[title] {
     padding: 5px;
 }
 
-#imagem-container, #imagem-cont {
-    perspective: 1000px; /* Adiciona um pouco de perspectiva para o efeito parecer mais 3D */
+#imagem-container,
+#imagem-cont {
+    perspective: 1000px;
+    /* Adiciona um pouco de perspectiva para o efeito parecer mais 3D */
 }
 
 .imagem {
-    transition: transform 0.3s ease; /* Animação suave para o efeito de transformação */
+    transition: transform 0.3s ease;
+    /* Animação suave para o efeito de transformação */
 }
 
 .imagem:hover {
     transform: translateZ(60px);
-    cursor: pointer; /* Move a imagem um pouco para frente no eixo Z */
+    cursor: pointer;
+    /* Move a imagem um pouco para frente no eixo Z */
 }
+
 button {
     width: 50%;
     margin: auto;
+}
+
+#social_logo {
+    position: relative;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#social_logo img {
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
 }
