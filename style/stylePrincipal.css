@@ -92,8 +92,7 @@ nav {
     margin: 10px;
 }
 
-section#quem-somos,
-section#contato {
+section#quem-somos {
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -121,10 +120,10 @@ section#quem-somos {
 
 p {
     width: 100%;
-    text-align: center;
     margin: 2px;
     font-family: "Sweetie";
     font-size: 25px;
+    color: #000;
 }
 
 main>.imagem-com-texto {
@@ -143,10 +142,14 @@ footer {
     padding: 10px;
 }
 
-footer>p {
-    text-align: justify;
-    margin: 0px;
+
+.contact {
+    background-color: #ff8fca;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
 }
+
 
 #nosso-produtos {
     display: flex;
@@ -172,6 +175,11 @@ footer>p {
     width: 400px;
     text-align: justify;
     margin: auto;
+}
+h3 {
+    font-size: 36px;
+    color: #000;
+
 }
 
 .container {
@@ -215,15 +223,6 @@ footer>p {
     margin-left: 5px;
     margin-bottom: 90px;
 }
-
-h3 {
-    font-size: 25px;
-    background: linear-gradient(90deg, #F46C83 30%, #FFB7C3 78.5%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .linha {
     margin: 17px 0px 10px 0px;
     border-radius: 300px;
@@ -482,4 +481,55 @@ button {
     display: flex;
     align-items: center;
     margin-left: 20px;
+}
+
+#comente {
+    margin-left: -280px;
+    width: 600px;
+    height: 70px;
+    border-radius: 20px;
+    background: #FFE9E9;
+    color: black;
+    font-size: 19px;
+    padding-left: 10px;
+    border: #FFE9E9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.box {
+    margin-left: 10px;
+    margin-top: 7px;
+    width: 720px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid #B4EBCA;
+    background: var(--Verde-pastel, #B4EBCA);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 19px;
+    text-align: center;
+    padding-left: 30px;
+    color: black;
+}
+#comentario{
+    position: relative;
+    margin-top:60px;
+    display:flex;
+    width:900px;
+    height:540px;
+    background-color: #F46C83 ;
+    margin-left:20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size:30px;
+    color:white;
+    border-radius: 20px;
+}
+#contato {
+    background-color: #333;
+    height: auto;
+}
+#repostas {
+    margin: 20px;
+
 }
