@@ -236,9 +236,6 @@ h3 {
     font-size: 19px;
 }
 
-#degustacao {
-    font-size: 18px;
-}
 
 #clique {
     margin-bottom: 3px;
@@ -259,18 +256,25 @@ footer {
 
 
 footer,
-#clique,
-#degustacao,
-#historia {
+#clique {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 50px;
+}
+section#degustacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#degus {
+    margin-bottom: 40px;
 }
 
 form {
+    margin-right: 20px;
     text-align: center;
-    margin: 20px 0px;
     padding: 5px;
     background-color: #F3E9E5;
     width: 400px;
@@ -288,6 +292,7 @@ textarea {
     margin: 5px 0px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    
 }
 
 input[type="submit"] {
@@ -301,12 +306,7 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 
-#degustacao {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 700px;
-}
+
 
 .centralizar {
     text-align: center;
@@ -486,44 +486,38 @@ button {
 }
 
 #comente {
-    margin-left: -80px;
     width: 600px;
-    height: 70px;
-    border-radius: 20px;
+    height: 60px;
+    border-radius: 15px;
     background: #FFE9E9;
     color: black;
     font-size: 19px;
-    padding-left: 10px;
-    border: #FFE9E9;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .box {
-    margin-left: 10px;
-    margin-top: 7px;
-    width: 720px;
-    height: 150px;
-    border-radius: 20px;
+
+    margin: 8px;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
     border: 1px solid #B4EBCA;
     background: var(--Verde-pastel, #B4EBCA);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: 19px;
     text-align: center;
-    padding-left: 30px;
     color: black;
 }
 #comentario{
-    position: relative;
-    margin-top: 0px;
     display:flex;
-    width:850px;
-    height:590px;
+    width:auto;
+    height:auto;
     background-color: #F46C83 ;
     margin-left:20px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size:30px;
+    font-size:10px;
     color:white;
     border-radius: 20px;
 }
@@ -531,14 +525,20 @@ button {
     background-color: #333;
     height: auto;
 }
-#repostas {
-    margin: 20px;
-
-}
 #enviar {
+    text-decoration: none;
+    border: none;
     text-align: center;
-    width: 150px;
-    border-radius: 10px;
+    width: auto;
+    border-radius: 15px;
+    padding: 14px;
+    font-size: 20px;
+}
+#resposta {
+    gap: 50px;
+}
+input {
+    outline: none;
 }
 #nossa-historia p {
     margin: auto;
