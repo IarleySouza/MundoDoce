@@ -15,7 +15,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Sweetie";
 }
 
 body,
@@ -57,11 +56,6 @@ h2 {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.737);
 }
 
-div>p {
-    text-align: left;
-    margin: 0px;
-    font-family: 'Dancing Script', cursive;
-}
 
 .pagina-inicial {
     display: flex;
@@ -112,10 +106,6 @@ section#quem-somos {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.397);
 }
 
-section>h2 {
-    text-align: center;
-}
-
 .conteiner {
     display: flex;
     align-items: center;
@@ -123,10 +113,6 @@ section>h2 {
     margin-left: 20px;
 }
 
-iframe {
-    margin-left: 30px;
-    width: 100%;
-}
 
 .imagem {
     display: flex;
@@ -135,9 +121,10 @@ iframe {
 
 p {
     width: 100%;
-    max-width: 600px;
     text-align: center;
-    margin: 20px auto;
+    margin: 2px;
+    font-family: "Sweetie";
+    font-size: 25px;
 }
 
 main>.imagem-com-texto {
@@ -166,7 +153,6 @@ footer>p {
     flex-direction: column;
     align-items: center;
     height: 100%;
-    border-top: solid;
     border-top: solid;
 }
 
@@ -328,7 +314,7 @@ input[type="submit"]:hover {
 
 #nosso-produtos>div>div>p {
     text-align: center;
-    width: 70%;
+    width: 87%;
 }
 
 #nosso-produtos>div>div>img {
@@ -395,10 +381,6 @@ input[type="submit"]:hover {
     padding-left: 15px;
 }
 
-h5 {
-    font-size: 15px;
-}
-
 #docesfini {
     display: flex;
     flex-wrap: wrap;
@@ -439,10 +421,35 @@ abbr[title] {
     background-color: #FCC7C1;
     border-radius: 10px;
     margin: 30px;
+    perspective: 1000px;
+    width: 20px;
 }
 #nosso-produtos div {
     margin: 25px;
+    width: 20px;
+    height: 450px;
 }
 #nosso-produtos h1 {
-    margin: 20px;
+    margin: 30px 25% 20px 25%;
+    background-color: #FCC7C1;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+#imagem-container, #imagem-cont {
+    perspective: 1000px; /* Adiciona um pouco de perspectiva para o efeito parecer mais 3D */
+}
+
+.imagem {
+    transition: transform 0.3s ease; /* Animação suave para o efeito de transformação */
+}
+
+.imagem:hover {
+    transform: translateZ(60px);
+    cursor: pointer; /* Move a imagem um pouco para frente no eixo Z */
+}
+button {
+    width: 50%;
+    margin: auto;
 }
