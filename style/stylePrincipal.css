@@ -73,7 +73,7 @@ table#cabecalho th {
     padding: 10px;
 }
 
-nav a {
+.menu {
     font-family: 'Dancing Script', cursive;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -83,7 +83,7 @@ nav a {
     box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.489);
 }
 
-nav a:hover {
+.menu:hover {
     background-color: #ff00b3;
     border-radius: 10px;
 }
@@ -105,13 +105,10 @@ section#quem-somos {
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.397);
 }
-
-.conteiner {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-left: 20px;
+section > h2 {
+    text-align: center;
 }
+
 
 
 .imagem {
@@ -214,14 +211,6 @@ footer>p {
 #historia {
     margin-left: 5px;
     margin-bottom: 90px;
-}
-
-h3 {
-    font-size: 25px;
-    background: linear-gradient(90deg, #F46C83 30%, #FFB7C3 78.5%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .linha {
@@ -334,22 +323,24 @@ input[type="submit"]:hover {
     height: 50px;
 }
 
-#parceiras {
-    background-color: #fff;
-    width: 100%;
-    height: 1500px;
-    padding-left: 15%;
+#parceiras{
+   background-color: #fff;
+   width:100%;
+   height:1900px;
+   padding-left:15%;
 }
 
-#parceiras #parca {
-    width: 90px;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 50px;
+#parceiras #parca{
+    padding-top:20px;
+     width: 90px;
+     height: 50px;
+     display: flex;
+     flex-direction: row;
+     margin-left:50px;
 }
 
-#parca img {
+#parca img{
+   
     width: 200px;
     height: 50px;
 }
@@ -370,27 +361,18 @@ input[type="submit"]:hover {
     margin-left: 80px;
 }
 
-#fini2 {
-    position: relative;
-    width: 550px;
-    height: 150px;
-    background-color: #fcc7c1;
-    margin-left: 40px;
-    font-size: 12px;
-    text-align: center;
-    padding-left: 15px;
+#fini2{
+     position: relative;
+     width:580px;
+     height:200px;
+     background-color: #fcc7c1;
+     margin-left: 40px;
+     font-size: 18px;
+     text-align: center;
+     padding-left:15px;
 }
 
-#docesfini {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-#docesfini img {
-    width: 100px;
-    height: 70px;
-    margin-left: 55px;
-}
 
 .carousel-inner {
     height: 560px;
@@ -453,3 +435,77 @@ button {
     width: 50%;
     margin: auto;
 }
+
+
+#docesfini {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#docesfini img{
+  padding-top:26px;
+  width:120px;
+  height:100px;
+  margin-left:55px;
+}
+
+
+
+
+#comentario{
+    position: relative;
+    margin-top:30px;
+    display:flex;
+    width:900px;
+    height:600px;
+    background-color: #F46C83 ;
+    margin-left:10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h3{
+    color:white;
+    font-size:30px;
+}
+
+
+
+.box{
+    margin-left:10px;
+    margin-top:7px;
+    width:700px;
+    height:120px;
+    border-radius: 20px;
+    border: 1px solid #B4EBCA;
+    background: var(--Verde-pastel, #B4EBCA);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size:19px;
+    text-align: center;
+    padding-left:30px;
+    color:black;
+}
+
+
+
+#comente{
+    margin-left:-120px;
+    width: 600px;
+    height: 70px;
+    border-radius: 20px;
+    background: #FFE9E9;
+    color:black;
+    font-size:19px;
+    padding-left:10px;
+    border:#FFE9E9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#enviar{
+width:150px;
+border-radius: 10px;
+}
+
