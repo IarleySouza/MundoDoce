@@ -17,8 +17,7 @@
     box-sizing: border-box;
 }
 
-body,
-html {
+body, html {
     height: auto;
     width: 100%;
     scroll-behavior: smooth;
@@ -45,7 +44,6 @@ h1.titulo {
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.523);
     display: flex;
     align-items: center;
-
 }
 
 h2 {
@@ -134,15 +132,7 @@ main>.imagem-com-texto {
     padding: 50px;
     justify-content: space-between;
     height: 630px;
-
 }
-
-footer {
-    background-color: violet;
-    color: white;
-    padding: 10px;
-}
-
 
 .contact {
     background-color: #ff8fca;
@@ -150,7 +140,6 @@ footer {
     border-radius: 8px;
     margin-top: 20px;
 }
-
 
 #nosso-produtos {
     display: flex;
@@ -178,10 +167,10 @@ footer {
     text-align: justify;
     margin: auto;
 }
+
 h3 {
     font-size: 36px;
     color: #000;
-
 }
 
 .container {
@@ -189,13 +178,11 @@ h3 {
     text-align: center;
     color: #333;
     position: relative;
-
 }
 
 #nossa-historia {
     background: #FCC7C1;
 }
-
 
 .titulo {
     font-size: 60px;
@@ -203,7 +190,6 @@ h3 {
     margin-bottom: 20px;
     color: rgba(44, 20, 20, 0.466)
 }
-
 .titulo-h2 {
     font-size: 60px;
     line-height: 2;
@@ -226,7 +212,6 @@ h3 {
 .linha {
     margin: 17px 0px 10px 0px;
     border-radius: 300px;
-    background: linear-gradient(90deg, #54635a 0%, #E6BD84 100%);
     width: 250px;
     height: 1.5px;
     border-radius: 10px;
@@ -285,8 +270,7 @@ label {
     font-weight: bold;
 }
 
-input,
-textarea {
+input, textarea {
     width: 95%;
     padding: 8px;
     margin: 5px 0px;
@@ -305,8 +289,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
-
-
 
 .centralizar {
     text-align: center;
