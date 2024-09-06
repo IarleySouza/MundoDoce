@@ -117,13 +117,6 @@ section#quem-somos {
     flex-direction: row-reverse;
 }
 
-p {
-    width: 100%;
-    margin: 2px;
-    font-family: "Sweetie";
-    font-size: 25px;
-
-}
 
 main>.imagem-com-texto {
     display: flex;
@@ -228,12 +221,13 @@ h3 {
 
 footer {
     background-color: #3E2723;
-    padding: 10px;
+    padding-top: 10px;
     color: #F5F5F5;
-    margin-top: 5px;
+
 }
 div > p {
     font-size: 20px;
+    margin: 2px;
 }
 #ro1 {
     display: flex;
@@ -244,15 +238,22 @@ div > p {
     align-items: center;
     justify-content: center;
     display: flex;
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
+#reser > p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 #reser > p {
+    text-align: center;
     font-size: 15px;
     margin: 10px;
-    width: 200px;
     color: rgba(255, 255, 255, 0.575);
     border-right: 1px solid ;
+    font-family: "Sweetie";
+    padding-right: 20px;
 }
 #dentro {
     display: flex;
