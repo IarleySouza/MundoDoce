@@ -30,21 +30,44 @@
 
     <main id="produtos">
 
-        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide w-80 mx-auto">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <video autoplay muted loop class="d-block w-100" src="image/video.mp4" alt="Vídeo"></video>
+                    <img src="image/login.jpg" class="d-block w-100" alt="...">
+                    <div id="baix" class="carousel-caption d-none d-md-block">
+                        <h5>Tudo o que possa imaginar</h5>
+                        <p>Com um toque de amor que só a vovó tem.</p>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="image/capcut.jpg" class="d-block w-100" alt="Imagem 2">
+                    <video src="image/video.mp4" loop autoplay="d-block w-100"></video>
+                    <div id="baix" class="carousel-caption d-none d-md-block">
+                        <h5>Mundo Doce</h5>
+                        <p>Oferecemos degustações gratuitas.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video src="#" loop autoplay="d-block w-100"></video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
@@ -227,7 +250,7 @@
                     <div id="docesfini">
                         <p>Bolos artesanais com mais de 90 sabores incríveis e também na versão zero açúcar para
                             conquistar seu paladar!</p>
-                        
+
                     </div>
                 </div>
             </div>
@@ -286,7 +309,7 @@
 
                     <div id="docesfini">
                         <p>O cardápio mais famoso do mundo com raizes italianas e um pouco de jeitinho brasileiro</p>
-                        
+
                     </div>
                 </div>
             </div>
@@ -308,7 +331,7 @@
                     <div id="docesfini">
                         <p>A marca do coração. Kibon é a marca do coração há 80 anos no Brasil e tem o propósito de
                             construir um mundo mais feliz e inclusivo de sorvetes</p>
-                        
+
                     </div>
                 </div>
             </div>
@@ -359,7 +382,7 @@
                     <img src="image/gmail.png" alt="">
                 </div>
             </div>
-            
+
         </div>
 
         <div id="reser">
@@ -368,7 +391,7 @@
             <p>Todos os direitos reservados</p>
             <p id="copy">&copy;2024 Mundo Doce. </p>
         </div>
-        
+
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

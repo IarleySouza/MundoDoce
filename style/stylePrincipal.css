@@ -17,7 +17,8 @@
     box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
     height: auto;
     width: 100%;
     scroll-behavior: smooth;
@@ -45,10 +46,12 @@ h1.titulo {
     display: flex;
     align-items: center;
 }
+
 #login {
     margin: auto;
 }
-#login > a {
+
+#login>a {
     color: #4B2E2A;
     border-left: 1px solid;
     padding-left: 10px;
@@ -86,6 +89,7 @@ nav a {
     position: relative;
     color: #4B2E2A;
 }
+
 nav a::after {
     content: " ";
     width: 0px;
@@ -96,15 +100,17 @@ nav a::after {
     left: 0;
     transition: width 0.5s;
 }
+
 nav a:hover::after {
     width: 30px;
 }
+
 nav a:hover {
     transition: 0.2s all;
 }
 
 nav {
-    margin:  auto;
+    margin: auto;
 }
 
 section#quem-somos {
@@ -193,6 +199,7 @@ h3 {
     margin-bottom: 20px;
     color: rgba(44, 20, 20, 0.466)
 }
+
 .titulo-h2 {
     font-size: 60px;
     line-height: 2;
@@ -212,6 +219,7 @@ h3 {
     margin-left: 5px;
     margin-bottom: 90px;
 }
+
 .linha {
     margin: 17px 0px 10px 0px;
     border-radius: 300px;
@@ -241,15 +249,18 @@ footer {
     color: #F5F5F5;
 
 }
-div > p {
+
+div>p {
     font-size: 20px;
     margin: 2px;
 }
+
 a {
     text-decoration: none;
     color: #fff;
     font-size: 15px;
 }
+
 #ro1 {
     display: flex;
     gap: 100px;
@@ -262,20 +273,22 @@ a {
     width: 70%;
     margin: auto;
 }
-#reser > p:hover {
+
+#reser>p:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-#reser > p {
+#reser>p {
     text-align: center;
     font-size: 15px;
     margin: 10px;
     color: rgba(255, 255, 255, 0.575);
-    border-right: 1px solid ;
+    border-right: 1px solid;
     font-family: "Sweetie";
     padding-right: 20px;
 }
+
 #dentro {
     display: flex;
     align-items: center;
@@ -289,6 +302,7 @@ section#degustacao {
     justify-content: center;
     gap: 50px;
 }
+
 #degus {
     margin-bottom: 40px;
 }
@@ -306,13 +320,14 @@ label {
     font-weight: bold;
 }
 
-input, textarea {
+input,
+textarea {
     width: 95%;
     padding: 8px;
     margin: 5px 0px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    
+
 }
 
 input[type="submit"] {
@@ -397,7 +412,8 @@ input[type="submit"]:hover {
     padding-left: 15px;
     border-radius: 20px;
 }
-#docesfini > p {
+
+#docesfini>p {
     margin: 20px;
 }
 
@@ -412,26 +428,7 @@ input[type="submit"]:hover {
     margin-left: 55px;
 }
 
-.carousel-inner {
-    height: 560px;
-    /* Ajuste a altura do carrossel conforme necessário */
-    overflow: hidden;
-    /* Garante que o conteúdo não ultrapasse o contêiner */
-}
 
-.carousel-inner video {
-    height: 100%;
-    /* Faz o vídeo preencher toda a altura do carrossel */
-    object-fit: cover;
-    /* Ajusta o vídeo para cobrir a área sem distorcer */
-}
-
-.carousel-item img {
-    height: 100%;
-    /* Garante que as imagens também preencham a altura */
-    object-fit: cover;
-    /* Ajusta a imagem para cobrir a área sem distorcer */
-}
 
 abbr[title] {
     border-bottom: none;
@@ -446,6 +443,7 @@ abbr[title] {
     perspective: 1000px;
     width: 20px;
 }
+
 .meio a {
     width: 100%;
     margin: auto;
@@ -479,6 +477,7 @@ abbr[title] {
     transform: translateY(-20px);
     cursor: pointer;
 }
+
 button {
     width: 50%;
     margin: auto;
@@ -504,27 +503,31 @@ button {
     text-align: center;
     color: black;
 }
-.box > p {
+
+.box>p {
     text-align: left;
     padding-left: 10px;
 }
-#comentario{
-    display:flex;
-    width:auto;
-    height:auto;
-    background-color: #FFC0CB ;
-    margin-left:20px;
+
+#comentario {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: #FFC0CB;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size:10px;
-    color:white;
+    font-size: 10px;
+    color: white;
     border-radius: 20px;
 }
+
 #contato {
     background-color: #333;
     height: auto;
 }
+
 #enviar {
     text-decoration: none;
     border: none;
@@ -534,12 +537,15 @@ button {
     padding: 10px;
     font-size: 20px;
 }
+
 #resposta {
     gap: 70px;
 }
+
 input {
     outline: none;
 }
+
 #nossa-historia p {
     margin: auto;
     text-align: justify;
@@ -547,6 +553,46 @@ input {
     line-height: 1.8;
     padding-bottom: 40px;
 }
+
 h5 {
-    font-size: 20px;
+    font-size: 50px;
+}
+
+#baix p {
+    font-size: 30px;
+}
+
+#carouselExampleCaptions {
+    width: 100%;
+    /* Ocupa toda a largura da tela */
+    height: 80vh;
+    /* Ajuste conforme necessário (50% da altura da viewport) */
+    overflow: hidden;
+    /* Garante que nada ultrapasse os limites do carrossel */
+    position: relative;
+    /* Necessário para posicionar os controles */
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+    /* Garante que o item do carrossel ocupe toda a altura do carrossel */
+}
+
+.carousel-item img,
+.carousel-item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ajusta o conteúdo para cobrir a área sem distorcer */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
