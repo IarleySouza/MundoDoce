@@ -28,14 +28,12 @@ header {
     background-color: #FFC0CB;
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid #f4baba;
-    padding: 0px;
 }
 
-header nav a:hover {
+/* header nav a:hover {
     border: 2px solid #ffffff9a;
 
-}
+} */
 
 h1.titulo {
     font-family: 'Lobster', cursive;
@@ -84,30 +82,31 @@ table#cabecalho th {
 nav a {
     text-align: left;
     text-decoration: none;
-    padding: 8px 30px;
-    transition: 0.2s all;
+    padding: 8px 3px;
     position: relative;
     color: #4B2E2A;
+    margin: 15px;
 }
 
 nav a::after {
     content: " ";
-    width: 0px;
-    height: 5px;
-    background: linear-gradient(45deg, #543831, #936A59);
+    width: 100%;
+    height: 2px;
+    background: #4B2E2A;
     position: absolute;
-    top: 32px;
+    bottom: -6px;
     left: 0;
-    transition: width 0.5s;
+    border-radius: 5px;
+    transform: translateY(10px);
+    transition: .5s;
+    opacity: 0;
 }
 
 nav a:hover::after {
-    width: 100%;
+    transform: translateY(0);
+    opacity: 1;
 }
 
-nav a:hover {
-    transition: 0.2s all;
-}
 
 nav {
     margin: auto;
@@ -259,7 +258,7 @@ div>p {
 a {
     text-decoration: none;
     color: #fff;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #ro1 {

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/styleLogin.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Login</title>
@@ -16,34 +18,69 @@
     <main>
         <section>
             <h1>Login!</h1>
-            <form action="javascript.js" method="get">
+            <form action="#" method="get">
                 
-            
-
                 <div class="campo">
                     
-                    <i id="email" class="material-icons">person</i>
-                    <input type="email" name="email" id="imail" required placeholder="Seu e-mail" style="width: 240px;">
+                    <span class="icon"><i class='bx bxs-envelope' ></i></span>
+                    <input type="email" name="email" id="imail" required  style="width: 240px;">
                     <label for="imail">E-mail</label>
                     
                 </div>
                 <div class="campo">
-                    <i class="material-icons">vpn_key</i>
-                    <input type="password" name="senha" id="isenha" required placeholder="Sua senha" style="width: 240px;">
+                    <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                    <input type="password" name="senha" id="isenha" required  style="width: 240px;">
                     <label for="isenha">Senha</label>
                     
                 </div>
-                <div id="log">
+                <div class="relembrar">
+                    <label><input type="checkbox">Relembrar senha</label>
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+
+                <button type="submit" class="bnt">Entrar</button>
+
+                <div class="registar">
+                    <p>Você ainda não tem uma conta? 
+                        <a href="#" class="register-link">Registre-se</a>
+                    </p>
+                </div>
+            </form>
+            
+        </section>
+        <section class="form-box register" style="height: 530px;">
+            <h1>Cadastre-se</h1>
+            <form action="#" method="get">
+                <div class="campo">
                     
-                    <input type="submit" value="Entrar">
-                    <a class="botao" href="#">Entrar com o Google
-                        <i class="material-symbols-outlined">mail</i>
-                    </a>
-                    <div class="unico">
-                        <input type="reset" value="Entrar com o Facebook">
-                    </div>
+                    <span class="icon"><i class='bx bxs-user' ></i></span>
+                    <input type="text" required>
+                    <label for="imail">Nome</label>
+                    
+                </div>
+                <div class="campo">
+                    
+                    <span class="icon"><i class='bx bxs-envelope' ></i></span>
+                    <input type="email" name="email" id="imail" required  style="width: 240px;">
+                    <label for="imail">E-mail</label>
+                    
+                </div>
+                <div class="campo">
+                    <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                    <input type="password" name="senha" id="isenha" required  style="width: 240px;">
+                    <label for="isenha">Senha</label>
+                    
+                </div>
+                <div class="relembrar">
+                    <label><input type="checkbox">Aceito os termos & condições</label>
+                </div>
 
+                <button type="submit" class="bnt">Cadastre-se</button>
 
+                <div class="registar">
+                    <p>Você já tem uma conta? 
+                        <a href="#" class="login-link">Entrar</a>
+                    </p>
                 </div>
             </form>
             

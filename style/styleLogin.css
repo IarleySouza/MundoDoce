@@ -13,24 +13,23 @@
 
 main {
     background: url(../image/img.jpg) no-repeat;
-    opacity: 70px;
     background-size: cover;
     height: 100vh;
     width: 100vw;
 
     display: flex;
-    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
 }
 section {
+    position: absolute;
     border: 2px solid white;
     background-color: #00000053;
     backdrop-filter: blur(15px);
     height: 450px;
     width: 390px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.626);
-    border-radius: 20px;
+    border-radius: 10px;
     color: white;
 }
 h1 {
@@ -39,45 +38,6 @@ h1 {
     padding: 10px;
     font-weight: normal;
     font-family: 'sweetie';
-}
-
-input {
-    margin: 5px 10px;
-    padding: 10px;
-    border-radius: 10px;
-
-}
-label {
-    font-family: 'sweetie';
-}
-input[type=submit] {
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    width: 82%;
-    height: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #b42c50;
-    color: white;
-    border: none;
-    margin:  15px 39px;
-}
-input[type=submit]:hover {
-    background-color: #942744;
-}
-
-input[type=reset] {
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #e63462;
-    border: none;
-    color: white;
-    margin: auto;
-    
-}
-input[type=reset]:hover {
-    background-color: #942744;
 }
 
 img {
@@ -93,18 +53,6 @@ img {
     font-size: 2em;
     padding: 5px;
 }
-.botao {
-    margin-right: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-    color: white;
-    font-weight: normal;
-    background-color: #e63462;
-    border-radius: 5px;
-    padding: 10px 10px;
-    margin-left: 38px;
-    font-size: 0.8em;
-}
 .botao:hover {
     background-color: #942744;
 }
@@ -113,9 +61,93 @@ img {
     font-size: 0.9em;
 }
 .campo {
-    text-align: center;
-    margin: auto;
+    position: relative;
+    margin: 30px ;
+    width: 340px;
+    height: 60px;
+    border-bottom: 2px solid white;
+}
+.campo input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-right: 18px;
+}
+.campo label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s ease;
+}
+.campo input:focus~label,
+.campo input:valid~label {
+    top: -5px;
+}
+.campo .icon {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 19px;
 }
 #log {
     margin-top: 40px;
+}
+.relembrar {
+    font-size: 14px;
+    margin: -15px 29px 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.relembrar label input {
+    accent-color: #e4e4e4;
+    margin-right: 5px;
+}
+.relembrar a{ 
+    color: #e4e4e4;
+    text-decoration: none;
+}
+.relembrar a:hover {
+    text-decoration: underline;
+}
+.bnt {
+    width: 91%;
+    height: 45px;
+    margin: 15px 0 3px 23px;
+    background: #c4103d;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #e4e4e4;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .5);
+}
+.registar {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+
+}
+.registar p a {
+    color: #e4e4e4;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.registar p a:hover {
+    text-decoration: underline;
+}
+.form-box.register {
+    transform: translateX(430px);
 }
