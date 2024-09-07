@@ -34,7 +34,7 @@ header {
 
 header nav a:hover {
     border: 2px solid #ffffff9a;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.511);
+
 }
 
 h1.titulo {
@@ -82,7 +82,7 @@ table#cabecalho th {
 }
 
 nav a {
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     padding: 8px 30px;
     transition: 0.2s all;
@@ -94,7 +94,7 @@ nav a::after {
     content: " ";
     width: 0px;
     height: 5px;
-    background: linear-gradient(45deg, #FF2500, #FF7100);
+    background: linear-gradient(45deg, #543831, #936A59);
     position: absolute;
     top: 32px;
     left: 0;
@@ -102,7 +102,7 @@ nav a::after {
 }
 
 nav a:hover::after {
-    width: 30px;
+    width: 100%;
 }
 
 nav a:hover {
@@ -111,6 +111,7 @@ nav a:hover {
 
 nav {
     margin: auto;
+    text-align: left;
 }
 
 section#quem-somos {
