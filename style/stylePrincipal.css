@@ -33,7 +33,7 @@ header {
 
 header nav a:hover {
     border: 2px solid #ffffff9a;
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.511);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.511);
 }
 
 h1.titulo {
@@ -44,6 +44,14 @@ h1.titulo {
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.523);
     display: flex;
     align-items: center;
+}
+#login {
+    margin: auto;
+}
+#login > a {
+    color: #4B2E2A;
+    border-left: 1px solid;
+    padding-left: 10px;
 }
 
 h2 {
@@ -71,13 +79,12 @@ table#cabecalho th {
 }
 
 nav a {
+    text-align: center;
     text-decoration: none;
-    color: rgb(255, 255, 255);
     padding: 8px 30px;
-    background-color: #68403b;
-    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.363);
     transition: 0.2s all;
     position: relative;
+    color: #4B2E2A;
 }
 nav a::after {
     content: " ";
@@ -93,14 +100,11 @@ nav a:hover::after {
     width: 30px;
 }
 nav a:hover {
-    background-color: #c2a3ba;
-    color: #4B2E2A;
-    border-radius: 10px;
     transition: 0.2s all;
 }
 
 nav {
-    margin:  auto 9px;
+    margin:  auto;
 }
 
 section#quem-somos {
@@ -431,9 +435,7 @@ input[type="submit"]:hover {
 
 abbr[title] {
     border-bottom: none;
-    /* Remove o sublinhado */
     cursor: default;
-    /* Remove o cursor de "mão" quando o mouse paFssa sobre o elemento */
     text-decoration: none;
 }
 
@@ -443,6 +445,11 @@ abbr[title] {
     margin: 30px;
     perspective: 1000px;
     width: 20px;
+}
+.meio a {
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }
 
 #nosso-produtos div {
@@ -462,20 +469,16 @@ abbr[title] {
 #imagem-container,
 #imagem-cont {
     perspective: 1000px;
-    /* Adiciona um pouco de perspectiva para o efeito parecer mais 3D */
 }
 
 .imagem {
     transition: transform 0.3s ease;
-    /* Animação suave para o efeito de transformação */
 }
 
 .imagem:hover {
-    transform: translateZ(60px);
+    transform: translateY(-20px);
     cursor: pointer;
-    /* Move a imagem um pouco para frente no eixo Z */
 }
-
 button {
     width: 50%;
     margin: auto;
@@ -483,13 +486,11 @@ button {
 
 
 #comente {
-    width: 600px;
-    height: 60px;
-    border-radius: 15px;
+    width: 530px;
+    height: 50px;
+    border-radius: 8px;
     background: #FFE9E9;
-    color: black;
     font-size: 19px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .box {
@@ -498,18 +499,20 @@ button {
     width: auto;
     height: auto;
     border-radius: 15px;
-    border: 1px solid #B4EBCA;
-    background: var(--Verde-pastel, #B4EBCA);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #cce2cb;
     font-size: 19px;
     text-align: center;
     color: black;
+}
+.box > p {
+    text-align: left;
+    padding-left: 10px;
 }
 #comentario{
     display:flex;
     width:auto;
     height:auto;
-    background-color: #F46C83 ;
+    background-color: #FFC0CB ;
     margin-left:20px;
     display: flex;
     flex-direction: column;
@@ -527,12 +530,12 @@ button {
     border: none;
     text-align: center;
     width: auto;
-    border-radius: 15px;
-    padding: 14px;
+    border-radius: 10px;
+    padding: 10px;
     font-size: 20px;
 }
 #resposta {
-    gap: 50px;
+    gap: 70px;
 }
 input {
     outline: none;

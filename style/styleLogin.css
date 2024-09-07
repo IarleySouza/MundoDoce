@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'sweetie';
-    src: url(../Sweetie.otf);
+    src: url(../Poppins/Poppins-Bold.ttf);
 }
 
 * {
@@ -12,7 +12,9 @@
 }
 
 main {
-    background-image: linear-gradient( 45deg , #72402E, #de369e, #72402E);
+    background: url(../image/img.jpg) no-repeat;
+    opacity: 70px;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
 
@@ -22,13 +24,17 @@ main {
     align-items: center;
 }
 section {
-    background-color: #daf5ff;
-    height: 410px;
+    border: 2px solid white;
+    background-color: #00000053;
+    backdrop-filter: blur(15px);
+    height: 450px;
     width: 390px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.626);
     border-radius: 20px;
+    color: white;
 }
 h1 {
+    margin: 30px;
     text-align: center;
     padding: 10px;
     font-weight: normal;
@@ -45,32 +51,30 @@ label {
     font-family: 'sweetie';
 }
 input[type=submit] {
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
-    display: block;
     font-size: 1em;
-    width: 95%;
+    width: 82%;
     height: 40px;
-    margin-top: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #e63462;
+    background-color: #b42c50;
     color: white;
     border: none;
-    box-shadow: 0px 1px 3px black;
-    margin: 10px;
+    margin:  15px 39px;
 }
 input[type=submit]:hover {
     background-color: #942744;
 }
 
 input[type=reset] {
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #e63462;
     border: none;
     color: white;
-    box-shadow: 0px 1px 3px black;
+    margin: auto;
+    
 }
 input[type=reset]:hover {
     background-color: #942744;
@@ -90,15 +94,15 @@ img {
     padding: 5px;
 }
 .botao {
+    margin-right: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     color: white;
     font-weight: normal;
     background-color: #e63462;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px 10px;
     margin-left: 38px;
-    box-shadow: 0px 1px 3px black;
     font-size: 0.8em;
 }
 .botao:hover {
@@ -107,4 +111,11 @@ img {
 
 .botao > i {
     font-size: 0.9em;
+}
+.campo {
+    text-align: center;
+    margin: auto;
+}
+#log {
+    margin-top: 40px;
 }
