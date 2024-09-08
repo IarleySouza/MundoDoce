@@ -21,16 +21,28 @@ main {
     justify-content: center;
     align-items: center;
 }
-section {
+.logreg-box {
     position: absolute;
     border: 2px solid white;
     background-color: #00000053;
     backdrop-filter: blur(15px);
-    height: 450px;
+    height: 530px;
     width: 390px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.626);
     border-radius: 10px;
     color: white;
+}
+.form-box.register {
+    position: absolute;
+    border: 2px solid white;
+    background-color: #00000053;
+    backdrop-filter: blur(15px);
+    height: 560px;
+    width: 390px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.626);
+    border-radius: 10px;
+    color: white;
+
 }
 h1 {
     margin: 30px;
@@ -121,7 +133,7 @@ img {
 .bnt {
     width: 91%;
     height: 45px;
-    margin: 15px 0 3px 23px;
+    margin: 35px 0 3px 15px;
     background: #c4103d;
     border: none;
     outline: none;
@@ -150,4 +162,41 @@ img {
 }
 .form-box.register {
     transform: translateX(430px);
+}
+
+.logreg-box .form-box.login {
+    transform: translateX(0);
+    transition: transform .6 ease;
+    transition-delay: .7s;
+}
+
+.logreg-box.active .form-box.login {
+    transform: translateX(430px);
+    transition-delay: 0s;
+}
+
+.logreg-box .form-box.register {
+    transform: translateX(430px);
+    transition: transform .5s ease;
+    transition-delay: 0s;
+
+}
+.logreg-box.active .form-box.register {
+    transform: translateX(0);
+    transition-delay: .7s;
+}
+
+
+.logreg-box {
+    display: flex;
+    transition: transform 0.5s ease;
+    overflow: hidden;
+}
+
+.logreg-box.active .form-box.login {
+    transform: translateX(-100%);
+}
+
+.logreg-box.active .form-box.register {
+    transform: translateX(0%);
 }
