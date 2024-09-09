@@ -587,3 +587,22 @@ p {
     border-radius: 10px;
     padding-left: 5px;
 }
+
+.carousel-item > img {
+    width: 50px;
+}
+
+#feed {
+    width: 100%;
+    margin-top: 200px;
+    color: #fff;
+    height: 200px;
+    align-items: center;
+    background-color: #8cb0dc;
+}
+
+#voltar, #passar {
+    background-color: rgba(238, 85, 85, 0.808);
+    border-radius: 20px;
+    color: #fff;
+}

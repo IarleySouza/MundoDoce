@@ -181,62 +181,68 @@
                         </div>
 
         </section>
-        <section id="degustacao">
-            <div id="degus">
-                <div id="comentario">
-                    <h3>Feedbacks</h3>
-                    <div class="box">
-                        <p>Graziele: Cacau Show ⭐⭐⭐⭐⭐<br />
-                            Tudo é bom! Mas as Trufas são irresistiveis 😍</p>
-                    </div>
+        <section id="feed">
+            <div id="feedbackCarousel" class="carousel slide w-100 mx-auto" data-bs-ride="carousel">
+                <!-- Indicadores -->
 
-                    <div class="box">
-                        <p>Roberto: Kibon ⭐⭐⭐⭐<br />
-                            Os sabores são diversos, uma maravilha!</p>
-                    </div>
-
-                    <div class="box">
-                        <p>Mariana reis: Sodiê ⭐⭐⭐ <br />
-                            O bolo da Sodiê estava bom, porém veio meio amassado na entrega 🙁 </p>
-                    </div>
-
-                    <div class="box">
-                        <p>Felipe: Rick Doces⭐⭐⭐⭐⭐<br />
-                            Minha familia adora, estamos satisfeitos 😁</p>
-                    </div>
-
-                    <br />
-                    <div id="resposta">
-                        <input id="comente" type="text" placeholder="Digite seu comentario aqui.">
-                        <input id="enviar" type="submit" value="Comentar">
-                    </div>
-
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#feedbackCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#feedbackCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#feedbackCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#feedbackCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
-            </div>
-            <div>
-                <aside id="aside1">
-                    <form action="java.sp" method="post">
-                        <label for="inome">Digite seu nome completo:</label> <br>
-                        <input type="text" name="nome" id="inome" placeholder="Digite seu nome aqui:" required> <br>
-                        <br>
+        
+                <!-- Slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center p-4">
+                        <img src="image/mulher-com-vestido.jpg" class="rounded-circle d-block mx-auto"
+                            alt="Foto de Selena Gomez">
+                        <div class="mt-3">
+                            <p>"Recomendo para todos os meus amigos!"</p>
+                            <small>- Gomez</small>
+                        </div>
+                    </div>
+        
+                    <div id="car" class="carousel-item text-center p-4">
+                        <img src="image/mulher-com-vestido.jpg" class="rounded-circle d-block mx-auto"
+                            alt="Foto de Elon Musk">
+                        <div class="mt-3">
+                            <p>"Loja incrvel mesmo"</p>
+                            <small>-Antony</small>
+                        </div>
+                    </div>
 
-                        <label for="iemail">Digite seu email:</label> <br>
-                        <input type="email" name="email" id="iemail" placeholder="Digite seu email aqui:" required>
-                        <br><br>
+                    <div class="carousel-item text-center p-4">
+                        <img src="image/mulher-com-vestido.jpg" class="rounded-circle d-block mx-auto"
+                            alt="Foto de Silvio Santos">
+                        <div class="mt-3">
+                            <p>"Atendimento nota dez."</p>
+                            <small>- Scarlos santos</small>
+                        </div>
+                    </div>
 
-                        <label for="message">Digite sua senha:</label> <br>
-                        <input type="password" name="message" id="message" placeholder="Digite sua senha aqui:">
-
-                        <br><br>
-
-                        <label for="message">Código do pedido:</label> <br>
-                        <textarea name="message" id="message" rows="1" cols="15" placeholder="Digite o código:"
-                            required></textarea> <br><br>
-
-                        <input type="submit" value="Enviar">
-
-                    </form>
-                </aside>
+                    <div class="carousel-item text-center p-4">
+                        <img src="image/mulher-com-vestido.jpg" class="rounded-circle d-block mx-auto"
+                            alt="Foto de Silvio Santos">
+                        <div class="mt-3">
+                            <p>" É show de bola!"</p>
+                            <small>- Andersson</small>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+        
+                <!-- Controles de navegação -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#feedbackCarousel" data-bs-slide="prev">
+                    <span id="passar" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#feedbackCarousel" data-bs-slide="next">
+                    <span id="voltar" class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
             </div>
         </section>
 
@@ -408,6 +414,7 @@
             </div>
 
         </section>
+        
 
     </main>
 
