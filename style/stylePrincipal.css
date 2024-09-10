@@ -9,6 +9,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +23,7 @@ html {
     height: auto;
     width: 100%;
     scroll-behavior: smooth;
-    font-family:'Sweetie';
+    font-family: 'Sweetie';
     font-weight: 500;
 }
 
@@ -154,23 +156,57 @@ h3 {
 
 #nossa-historia {
     background: #FCC7C1;
+    height: auto;
+    padding-bottom: 100px;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.489);
+}
+
+.parceiras {
+    width: 600px;
+    height: 190px;
+    flex-shrink: 0;
+    background-color: #c68c54;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
 .titulo {
-    font-size: 60px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: rgba(44, 20, 20, 0.466)
+    padding-left: 15px;
+    padding-top: 5px;
 }
 
-.titulo-h2 {
-    font-size: 60px;
-    line-height: 2;
+.texto {
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+section#nossa-historia h2 {
+    font-family: "Sweetie";
+    font-weight: 500;
     text-align: center;
+    padding-top: 20px;
+    margin-top: 0px;
     margin: auto;
-    font-size: 60px;
+    color: #fff;
+    width: 200px;
 }
-
+section#nossa-historia p {
+    gap: 30px;
+    text-align: left;
+    font-family: "Sweetie";
+    font-weight: 500;
+    font-size: 18.4px;
+    padding: 15px;
+    width: 100%;
+}
+section#nossa-historia {
+    background: url(../image/mulher-com-capcake.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
 .line {
     width: 200px;
     height: 2px;
@@ -314,6 +350,7 @@ input[type="submit"]:hover {
     width: 170px;
     height: 70px;
 }
+
 #logo {
     margin: 5px 0 5px 30px;
 }
@@ -498,6 +535,7 @@ input {
 }
 
 h5 {
+    font-family: "Sweetie";
     font-size: 50px;
 }
 
@@ -544,20 +582,25 @@ h5 {
     transition: transform 0.3s ease;
     cursor: pointer;
 }
+
 .card:hover .card-img-top {
     transform: scale(1.1);
 }
+
 .card {
     overflow: hidden;
 }
+
 .card-img-overlay {
     cursor: pointer;
 }
+
 p {
     font-size: 1.2em;
     font-weight: 600;
-    
+
 }
+
 #animes {
     background-color: #FFC0CB;
     color: #4B2E2A;
@@ -568,27 +611,46 @@ p {
     font-weight: 600;
     font-family: "Rubik", sans-serif;
 }
+
 .btn {
-    background-color: #8cb0dc;
+    background-color: #cf943a;
     color: #fff;
+    font-size: 1.2em;
 }
+
 .btn:hover {
-    background-color: #fff;
-    color: #8cb0dc;
+    background-color: #ffffffba;
+    color: #000;
 }
+
 .btn-custom-width {
-    width: 120px; /* Ajuste o valor conforme necessário */
+    width: 120px;
+    /* Ajuste o valor conforme necessário */
     margin: auto;
 }
+
+.card-img-overlay div {
+    display: flex;
+    gap: 20px;
+
+}
+
+.card-img-overlay h6 {
+    color: #fff;
+    backdrop-filter: blur(17px);
+    border-radius: 10px;
+    font-size: 1.4em;
+
+}
+
 .card-img-overlay p {
     color: #fff;
     backdrop-filter: blur(10px);
-    width: 60px;
     border-radius: 10px;
-    padding-left: 5px;
 }
 
-.carousel-item > img {
+
+.carousel-item>img {
     width: 50px;
 }
 
@@ -601,8 +663,87 @@ p {
     background-color: #8cb0dc;
 }
 
-#voltar, #passar {
+#voltar,
+#passar {
     background-color: rgba(238, 85, 85, 0.808);
     border-radius: 20px;
     color: #fff;
+}
+
+
+/*Parte do feedback*/
+.customer-reviews {
+    text-align: center;
+    padding: 20px;
+    background-color: #d7a68b;
+    margin-bottom: 20px;
+    position: relative;
+    color: white;
+    margin-top: 50px;
+}
+
+.reviews-carousel {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    transition: transform 0.5s ease;
+    /* Transição suave */
+    flex-wrap: nowrap;
+}
+
+.review-card {
+    background-color: #c68c54;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    min-height: 180px;
+    position: relative;
+}
+
+.review-stars {
+    font-size: 20px;
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+.review-text {
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.review-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.arrow {
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.left-arrow {
+    left: 30px;
+}
+
+.right-arrow {
+    right: 30px;
 }
