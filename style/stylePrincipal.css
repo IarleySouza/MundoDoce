@@ -25,6 +25,7 @@ html {
     scroll-behavior: smooth;
     font-family: 'Sweetie';
     font-weight: 500;
+    background-color: rgb(248, 247, 247);
 }
 
 header {
@@ -148,10 +149,11 @@ h3 {
     color: #000;
 }
 
-.container {
+.container h2 {
     text-align: center;
     color: #333;
-    position: relative;
+    font-family: 'Sweetie';
+    font-weight: 600;
 }
 
 #nossa-historia {
@@ -246,9 +248,10 @@ footer {
     background-color: #4B2E2A;
     padding-top: 10px;
     color: #F5F5F5;
-
 }
-
+footer p {
+    font-weight: 100;
+}
 div>p {
     font-size: 20px;
     margin: 2px;
